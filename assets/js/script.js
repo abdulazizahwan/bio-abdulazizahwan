@@ -3,15 +3,15 @@ function mostrar(e) {
         e.classList.remove("fa-moon-o"); //remove classe icone lua
         e.classList.add("fa-sun-o"); //coloca classedo sol
         e.style.color = "rgb(225, 225, 0)";
-        document.body.style.background = 'rgb(10, 10, 10)';
+        document.body.style.background = 'rgb(25, 36, 41)';
         document.querySelector('#userName').style.color = '#fff';
 
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
-        links[0].style.filter = 'grayscale(100%)';
+        links[0].style.background = 'rgb(45, 56, 61)';
         // pega todos
         for (let i = 0; i < links.length; i++) {
-            links[i].style.filter = 'grayscale(100%)';
+            links[i].style.background = 'rgb(45, 56, 61)';
         }
 
         let circulos = document.querySelectorAll('.circulo');
@@ -31,10 +31,14 @@ function mostrar(e) {
 
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
-        links[0].style.filter = 'grayscale(0%)';
+        links[0].style.background = 'rgb(58, 171, 231)';
+        $('.link').hover(function () {
+            $(this).css("color", "rgb(58, 171, 231)");
+            $(this).css("background-color", "rgb(255, 255, 255)");
+        });
         // pega todos
         for (let i = 0; i < links.length; i++) {
-            links[i].style.filter = 'grayscale(0%)';
+            links[i].style.background = 'rgb(58, 171, 231)';
         }
 
         let circulos = document.querySelectorAll('.circulo');
