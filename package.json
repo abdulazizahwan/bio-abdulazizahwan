@@ -1,0 +1,19 @@
+{
+  "name": "bio-abdulazizahwan",
+  "version": "1.0.0",
+  "description": "LinkTree alternative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulazizahwan/bio-abdulazizahwan.git"
+  },
+  "author": "Abdul Aziz Ahwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulazizahwan/bio-abdulazizahwan/issues"
+  },
+  "homepage": "https://github.com/abdulazizahwan/bio-abdulazizahwan#readme"
+}

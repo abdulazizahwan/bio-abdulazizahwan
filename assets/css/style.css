@@ -1,6 +1,7 @@
 /* Style Settings */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
 :root {
     --font: 'Poppins', 'Poppins', sans-serif;
 }
@@ -47,7 +48,7 @@ body {
 
 .link {
     display: block;
-    background-color: #6944FB;
+    background-color: #4361ee;
     color: #fff;
     font-family: var(--font);
     text-align: center;
@@ -57,14 +58,14 @@ body {
     font-size: 1rem;
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid 2px #6944FB;
+    border: solid 2px #4361ee;
 }
 
 .link:hover {
     background-color: #fff;
-    color: #6944FB;
+    color: #4361ee;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border: solid 2px #6944FB;
+    border: solid 2px #4361ee;
 }
 
 .footer {
@@ -73,7 +74,7 @@ body {
 }
 
 .footer a {
-    text-decoration:none;
+    text-decoration: none;
     display: inline-block;
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .circulo:hover {
-    background: #6944FB;
+    background: #4361ee;
     color: rgb(255, 255, 255);
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     -moz-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
