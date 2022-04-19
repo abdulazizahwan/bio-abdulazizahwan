@@ -48,7 +48,7 @@ body {
 
 .link {
     display: block;
-    background-color: #4361ee;
+    background-color: #0C55FF;
     color: #fff;
     font-family: var(--font);
     text-align: center;
@@ -58,14 +58,14 @@ body {
     font-size: 1rem;
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid 2px #4361ee;
+    border: solid 2px #0C55FF;
 }
 
 .link:hover {
     background-color: #fff;
-    color: #4361ee;
+    color: #0C55FF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border: solid 2px #4361ee;
+    border: solid 2px #0C55FF;
 }
 
 .footer {
@@ -95,7 +95,7 @@ body {
 }
 
 .circulo:hover {
-    background: #4361ee;
+    background: #0C55FF;
     color: rgb(255, 255, 255);
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     -moz-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
